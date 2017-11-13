@@ -1,0 +1,15 @@
+1) create project folder
+
+2) cd in project folder
+
+3) npm init -y
+
+this init step set creates a package.json file inside of your current directly. This step usually has you answer a plethora of yes/no questions, but with the -y flag you can avoid having to do so. The package.json file is simply a file that stores information about your project. (all the modules you installed, author, etc).
+
+4) npm install {{ name of module 1 }} {{ name of module 2 }} {{ etc }} --save
+
+this step install modules into your project. the --save flag updates your package.json file with the modules you just installed
+
+5) create server.js in the current directly
+
+6) edit server file

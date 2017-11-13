@@ -1,0 +1,7 @@
+client -> server.js -> routes -> controllers <=> database
+  ^                                   |
+  |                                   |(views template)
+  |___________________________________|
+
+
+
